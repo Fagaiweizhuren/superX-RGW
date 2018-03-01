@@ -28,4 +28,5 @@ npm test
 ```
 
 thanks to [Evan You](http://evanyou.me/)
+
 thanks to [Aresn](https://github.com/icarusion)
