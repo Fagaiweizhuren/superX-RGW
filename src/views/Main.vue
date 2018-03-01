@@ -19,25 +19,25 @@
               <div class="header-menu">
                 <div class="holder">
                   <Row>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>产品</span>
                     </Col>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>关于我们</span>
                     </Col>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>申请接入</span>
                     </Col>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>商户门户</span>
                     </Col>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>开发者</span>
                     </Col>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>帮助</span>
                     </Col>
-                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect">
+                    <Col :md="{ span: 3 }" :sm="{ span: 24 }" class="list line-effect-two">
                       <span>联系我们</span>
                     </Col>
                   </Row>
