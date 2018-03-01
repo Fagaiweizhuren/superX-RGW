@@ -1,0 +1,52 @@
+.header.open-menu {
+  width: 100%;
+  overflow: hidden;
+}
+.navbar-header {
+  position: relative;
+  z-index: 1;
+}
+.navbar-header .toggle-header-menu {
+  position: relative;
+  width: 28px;
+  height: 18px;
+  float: right;
+  cursor: pointer;
+  margin: 15px 15px 0 0;
+  transform: rotate(0);
+  transition: 0.5s ease-in-out;
+}
+.navbar-header .toggle-header-menu .icon-bar {
+  display: block;
+  position: absolute;
+  width: 28px;
+  height: 2px;
+  background-color: #fff;
+  transition: 0.25s ease-in-out;
+}
+.navbar-header .toggle-header-menu .icon-bar:nth-child(1) {
+  top: 0;
+}
+.navbar-header .toggle-header-menu .icon-bar:nth-child(2) {
+  top: 8px;
+}
+.navbar-header .toggle-header-menu .icon-bar:nth-child(3) {
+  top: 16px;
+}
+.navbar-header .toggle-header-menu.open .icon-bar {
+  background-color: #888;
+}
+.navbar-header .toggle-header-menu.open .icon-bar:nth-child(1) {
+  top: 9px;
+  left: 0;
+  transform: rotate(45deg);
+}
+.navbar-header .toggle-header-menu.open .icon-bar:nth-child(2) {
+  width: 0;
+  opacity: 0;
+}
+.navbar-header .toggle-header-menu.open .icon-bar:nth-child(3) {
+  top: 9px;
+  left: 0;
+  transform: rotate(-45deg);
+}

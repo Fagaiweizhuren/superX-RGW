@@ -1,0 +1,116 @@
+.container-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@media only screen and (min-width: 480px) {
+  .container-grid {
+    max-width: 460px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container-grid {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container-grid {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container-grid {
+    max-width: 1170px;
+  }
+}
+.check {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.check-two {
+  position: absolute;
+  line-height: 10px;
+  background-color: red;
+  z-index: 100;
+  min-width: 30px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  display: none;
+}
+@media only screen and (min-width: 480px) {
+  .check-two {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .check-two {
+    background-color: rebeccapurple;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .check-two {
+    background-color: black;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .check-two {
+    background-color: #a50404;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .check-phone {
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .check-ipad {
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .check-phone {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .check-tablet {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .check-ipad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .check-desktop {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .check-tablet {
+    display: none;
+  }
+}
+.grid {
+  color: #545454;
+  font-size: 20px;
+}
+.grid .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.grid .demo {
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  line-height: 40px;
+  background-color: rgba(86, 61, 124, 0.15);
+}
+.grid .row-demo {
+  background-color: rgba(86, 61, 124, 0.1);
+  margin-bottom: 20px;
+}
+.grid .center {
+  text-align: center;
+}

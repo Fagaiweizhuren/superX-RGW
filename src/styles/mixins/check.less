@@ -1,0 +1,62 @@
+.check-two {
+  position: fixed;
+  line-height: 10px;
+  background-color: red;
+  z-index: 100;
+  min-width: 30px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  color: white;
+  display: none;
+  top: 0;
+  left: 0;
+
+  @media @l-phone {
+    background-color: green;
+  }
+  @media @ipad {
+    background-color: rebeccapurple;
+  }
+  @media @tablet {
+    background-color: black;
+  }
+  @media @desktop {
+    background-color: #a50404;
+  }
+}
+.check-phone {
+  @media @l-phone {
+    display: block;
+  }
+}
+.check-ipad {
+  @media @ipad {
+    display: block;
+  }
+}
+@media @ipad {
+  .check-phone {
+    display: none;
+  }
+}
+.check-tablet {
+  @media @tablet {
+    display: block;
+  }
+}
+@media @tablet {
+  .check-ipad {
+    display: none;
+  }
+}
+.check-desktop {
+  @media @desktop {
+    display: block;
+  }
+}
+@media @desktop {
+  .check-tablet {
+    display: none;
+  }
+}

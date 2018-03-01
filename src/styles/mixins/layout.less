@@ -1,0 +1,47 @@
+// breakpoints
+@xs-min: 480px;
+@sm-min: 768px;
+@md-min: 992px;
+@lg-min: 1200px;
+@xs-container: 460px;
+@sm-container: 720px;
+@md-container: 960px;
+@lg-container: 1170px;
+
+// local-min-widht: 1040
+@local-min-width-responsive: 1050px;
+
+@xs-max: @sm-min -1;
+@sm-max: @md-min -1;
+@md-max: @lg-min -1;
+
+
+@test-local-min: ~"only screen and (max-width: @{local-min-width-responsive})";
+
+// devices
+@phone:   ~"only screen and (min-width: @{xs-min})";
+@l-phone: ~"only screen and (min-width: @{xs-min})";
+@ipad:    ~"only screen and (min-width: @{sm-min})";
+@tablet:  ~"only screen and (min-width: @{md-min})";
+@desktop: ~"only screen and (min-width: @{lg-min})";
+
+// container-grid
+.container-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  @media @l-phone {
+    max-width: @xs-container;
+  }
+  @media @ipad {
+    max-width: @sm-container;
+  }
+  @media @tablet {
+    max-width: @md-container;
+  }
+  @media @desktop {
+    max-width: @lg-container;
+  }
+
+}

@@ -1,0 +1,26 @@
+@import '../../styles/mixins/index';
+@import '../../styles/mixins/check';
+@import '../../styles/mixins/navigation';
+
+.app-main {
+  color: rgb(253, 138, 7);
+  width: 100%;
+  position: relative;
+
+  .container {
+    width: 1040px;
+    margin: 0 auto;
+    .clearfix;
+    @media @test-local-min {
+      width: 100%;
+    }
+  }
+
+  .banner {
+    height: 520px;
+    width: 100%;
+    background: #048fc8 url('../../images/pic_产品_bg.png') no-repeat center -210px;
+  }
+
+}
+
